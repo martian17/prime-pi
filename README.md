@@ -14,7 +14,7 @@ Now we count the combination of those factors that results in a point on the cir
 Note that if you multiply a conjugate pairs, it will result in n. Therefore, the magnitude of those conjugate pairs will be a square root of the base number n.<br>
 The combination can be calculated using the following pseudocode (it's half javascript)<br>
 (when I say code speaks better than words, this is what I mean:)<br>
-<pre>
+```JavaScript
     //this function is basically in javascipt, so it works irl
     var processFactor = function(prime,tally,points){//n is the number of prime factors
         if(points === 0){//0*n=0
@@ -44,6 +44,6 @@ The combination can be calculated using the following pseudocode (it's half java
         points *= 4;//because there are four quadrants
         return points;
     };
-</pre>
+```
 <a target="_blank" href="https://codepen.io/MartianLord/full/zYNwOry">demo</a><br>
 <a target="_blank" href="https://github.com/martian17/prime-pi">Github</a><br>
