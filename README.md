@@ -47,4 +47,3 @@ The combination can be calculated using the following pseudocode (it's half java
 </pre>
 <a target="_blank" href="https://codepen.io/MartianLord/full/zYNwOry">demo</a><br>
 <a target="_blank" href="https://github.com/martian17/prime-pi">Github</a><br>
-<a target="_blank" id="github" href="https://github.com/martian17/prime-pi">Fork me on Github</a>
