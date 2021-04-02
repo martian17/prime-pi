@@ -32,7 +32,7 @@ The combination can be calculated using the following pseudocode (it's half java
             return (tally+1)*points;//tally+1 regular factors (4 because of rotation)
         }
     };
-    
+
     //this part is pseudocode, it doesn't work irl, if you're curious, look at my implementation:)
     //didn't put my actual code because it's obfuscated as a result of optimization
     var countPoints = function(n){
